@@ -1,7 +1,7 @@
 <template>
     <div>
         <p :style="{color:textColor}">{{text}}</p>
-        <button :style="{background:bgColor,border:bord,color:color}"><span ><fa class="lef" :icon="sou" /></span>{{tex}}<span ><fa class="rig" :icon="sour" /></span></button>
+        <button :style="{background:bgColor,border:bord,color:color,boxShadow:box}"><span ><fa class="lef" :icon="sou" /></span>{{tex}}<span ><fa class="rig" :icon="sour" /></span></button>
     </div>
 </template>
 
@@ -17,7 +17,8 @@
             color:String,
             tex:String,
             sou:String,
-            sour:String
+            sour:String,
+            box:String
 
         }
     }

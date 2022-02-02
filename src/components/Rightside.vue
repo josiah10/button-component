@@ -3,8 +3,8 @@
         <div class="container">
            <h2>Buttons</h2>
             <div class="flx first">
-                <Buttons tex="Default" color="#3F3F3F" text="<Button />" textColor="#333333" bgColor="#E0E0E0" bord="none"/>
-                <Buttons tex="Default" color="#3F3F3F" text="&:hover, &:focus" textColor="#828282" bgColor="#AEAEAE" bord="none"/>
+                <Buttons box="0px 2px 3px rgba(51, 51, 51, 0.2)" tex="Default" color="#3F3F3F" text="<Button />" textColor="#333333" bgColor="#E0E0E0" bord="none"/>
+                <Buttons box="0px 2px 3px rgba(51, 51, 51, 0.2)" tex="Default" color="#3F3F3F" text="&:hover, &:focus" textColor="#828282" bgColor="#AEAEAE" bord="none"/>
             </div>
             <div class="flx second">
                 <Buttons tex="Default" color="#3D5AFE" text="<Button variant=”outline” />" textColor="#333333" bgColor="white" bord="1px solid #3D5AFE"/>
@@ -26,8 +26,8 @@
             </div>
 
             <div class="flx Five">
-                <Buttons  class="fiv" sou="cart-plus" tex="Default" color="#FFFFFF" text="<Button startIcon=”local_grocery_store” />" textColor="#000000" bgColor="#2962FF" bord="none"/>
-                <Buttons sour="cart-plus" tex="Default" color="#FFFFFF" text="<Button startIcon=”local_grocery_store” />" textColor="#000000" bgColor="#2962FF" bord="none"/>
+                <Buttons box="0px 2px 3px rgba(0, 49, 202, 0.2)" class="fiv" sou="cart-plus" tex="Default" color="#FFFFFF" text="<Button startIcon=”local_grocery_store” />" textColor="#000000" bgColor="#2962FF" bord="none"/>
+                <Buttons box="0px 2px 3px rgba(0, 49, 202, 0.2)" sour="cart-plus" tex="Default" color="#FFFFFF" text="<Button startIcon=”local_grocery_store” />" textColor="#000000" bgColor="#2962FF" bord="none"/>
 
             </div>
                 <i class="fa fa-cart-plus"></i>
@@ -36,7 +36,7 @@
                     <p>{{text2}}</p>
                     <button class="sm">Default</button>
                 </div>
-                <Buttons tex="Default" color="#FFFFFF" text="<Button size=”md” />" textColor="#000000" bgColor="#2962FF" bord="none"/>
+                <Buttons box="0px 2px 3px rgba(0, 0, 0, 0.2)" tex="Default" color="#FFFFFF" text="<Button size=”md” />" textColor="#000000" bgColor="#2962FF" bord="none"/>
                 <div>
                     <p>{{text1}}</p>
                     <button class="lg">Default</button>
@@ -44,17 +44,17 @@
             </div>
 
             <div class="flx six">
-                <Buttons tex="Default" color="#3F3F3F" text="<Button color=”default” />" textColor="#000000" bgColor="#E0E0E0" bord="none"/>
-                <Buttons tex="Default" color="#FFFFFF" text="<Button size=”md” />" textColor="#000000" bgColor="#2962FF" bord="none"/>
-                <Buttons tex="Secondary" color="#FFFFFF" text="<Button color=”secondary” />" textColor="#000000" bgColor="#455A64" bord="none"/>
-                <Buttons tex="Danger" color="#FFFFFF" text="<Button color=”danger” />" textColor="#000000" bgColor="#D32F2F" bord="none"/>
+                <Buttons box="0px 2px 3px rgba(51, 51, 51, 0.2)" tex="Default" color="#3F3F3F" text="<Button color=”default” />" textColor="#000000" bgColor="#E0E0E0" bord="none"/>
+                <Buttons box=" 0px 2px 3px rgba(41, 98, 255, 0.2)" tex="Default" color="#FFFFFF" text="<Button size=”md” />" textColor="#000000" bgColor="#2962FF" bord="none"/>
+                <Buttons box=" 0px 2px 3px rgba(69, 90, 100, 0.2)" tex="Secondary" color="#FFFFFF" text="<Button color=”secondary” />" textColor="#000000" bgColor="#455A64" bord="none"/>
+                <Buttons box="0px 2px 3px rgba(211, 47, 47, 0.2)" tex="Danger" color="#FFFFFF" text="<Button color=”danger” />" textColor="#000000" bgColor="#D32F2F" bord="none"/>
             </div>
 
             <div class="flx last">
-                <Buttons tex="Default" color="#3F3F3F" text="&:hover, &:focus" textColor="#828282" bgColor="#AEAEAE" bord="none"/>
-                <Buttons tex="Default" color="#FFFFFF" text="ffff" textColor="#FFFFFF" bgColor="#0039CB" bord="none"/>
-                <Buttons tex="Secondary" color="#FFFFFF" text="ff" textColor="#FFFFFF" bgColor="#1C313A" bord="none"/>
-                <Buttons tex="Danger" color="#FFFFFF" text="fff" textColor="#FFFFFF" bgColor="#9A0007" bord="none"/>
+                <Buttons box="0px 2px 3px rgba(51, 51, 51, 0.2)" tex="Default" color="#3F3F3F" text="&:hover, &:focus" textColor="#828282" bgColor="#AEAEAE" bord="none"/>
+                <Buttons box=" 0px 2px 3px rgba(41, 98, 255, 0.2)" tex="Default" color="#FFFFFF" text="ffff" textColor="#FFFFFF" bgColor="#0039CB" bord="none"/>
+                <Buttons box=" 0px 2px 3px rgba(69, 90, 100, 0.2)" tex="Secondary" color="#FFFFFF" text="ff" textColor="#FFFFFF" bgColor="#1C313A" bord="none"/>
+                <Buttons box="0px 2px 3px rgba(211, 47, 47, 0.2)" tex="Danger" color="#FFFFFF" text="fff" textColor="#FFFFFF" bgColor="#9A0007" bord="none"/>
             </div>
             <h4>Icons: https://material.io/resources/icons/?style=round</h4>
             <h5>created by <span>Josiah</span> - devChallenges.io</h5>
@@ -110,6 +110,7 @@
         background: #2962FF;
         color: #FFFFFF;
         border: none;
+        box-shadow: 0 2px 3px rgba(0, 49, 202, 0.2);
     }
     .lg{
         font-family: Noto Sans;
@@ -124,6 +125,7 @@
         background: #2962FF;
         color: #FFFFFF;
         border: none;
+        box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
     }
     p{
         font-family: Ubuntu Mono;
